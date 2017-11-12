@@ -1,4 +1,4 @@
-uaseURL = "http://jstructure.com/"
+baseURL = "http://jstructure.com/"
 languageCode = "ru-ru"
 title = "jStructure"
 theme = "nofancy"
