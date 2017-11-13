@@ -2,3 +2,9 @@ baseURL = "http://jstructure.com/"
 languageCode = "ru-ru"
 title = "jStructure"
 theme = "nofancy"
+
+[author]
+    name = "Albert Iskhakov"
+    twitter = "aliskhakov"
+    gaID = "UA-109511104-1"
+
