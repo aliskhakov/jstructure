@@ -1,10 +1,40 @@
 baseURL = "http://jstructure.com/"
 languageCode = "ru-ru"
-title = "jStructure"
-theme = "nofancy"
+title = "Jstructure"
+theme = "cactus"
+googleAnalytics = "UA-109511104-1"
 
-[author]
-    name = "Albert Iskhakov"
-    twitter = "aliskhakov"
-    gaID = "UA-109511104-1"
+[params]
+	name = "JStructure"
+	description = "Блог о программировании"
+        bio = "Блог о программировании"
+	# Enter optionally your twitter account
+	twitter = "aliskhakov"
+        telegram = "jstructure"
+	enableRSS = true
+
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = "Главная"
+	subscribe = "RSS"
+	# Pagination links
+	olderPosts = "&laquo;"
+	newerPosts = "&raquo;"
+	readMore = "Далее"
+	copyright = "&copy; Albert Iskhakov"
+	# Sharing options and author information in posts
+	author = "Albert Iskhakov"
+        aboutAuthor = "PhD, TL"
+	tweet = "Твитнуть"
+	share = "Поделиться"
+	# 404 page
+	title404 = "Страница не найдена"
+	subtitle404 = ""
 
